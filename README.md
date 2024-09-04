@@ -23,8 +23,8 @@ You will be given a blank repo for this one! You are building a server from scra
 
 Your grade on this assignment will be determined by the number of tasks you are able to complete. Tasks appear as a checkbox, like this:
 
-- [ ] example of an incomplete task
-- [x] example of an completed task
+* <input type="checkbox" > example of an incomplete task
+* <input type="checkbox" checked>  example of an completed task
 
 Feel free to mark these tasks as complete/incomplete, however your instructor will likely modify your tasks when grading.
 
@@ -37,24 +37,24 @@ This assignment has 12 tasks:
 
 Before continuing, make sure that these tasks are completed!
 
-- [ ] Has a Vite+React project folder with a built `dist/` folder
-- [ ] The vite project `.gitignore` file does NOT include `dist`
-- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
-- [ ] `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
-- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+* <input type="checkbox" checked>  Has a Vite+React project folder with a built `dist/` folder
+* <input type="checkbox" checked>  The vite project `.gitignore` file does NOT include `dist`
+* <input type="checkbox" checked>  Has a `server` folder with an `index.js` file and a `package.json` file inside
+* <input type="checkbox" checked>  `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
+* <input type="checkbox" checked>  `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
 
 **Server Application Technical Requirements**
 
-- [ ] In `index.js`, the `express()` function is used to create an `app`
-- [ ] The `path` module is imported
-- [ ] The `__dirname` variable is used to generate an absolute path to the `dist/` folder of your React application
-- [ ] The `express.static()` middleware serves the static assets in the React application's `dist/` folder.
-- [ ] A middleware controller prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
-- [ ] The `app` listens on an available port (I recommend `8080`)
+* <input type="checkbox" checked>  In `index.js`, the `express()` function is used to create an `app`
+* <input type="checkbox" >  The `path` module is imported
+* <input type="checkbox" >  The `__dirname` variable is used to generate an absolute path to the `dist/` folder of your React application
+* <input type="checkbox" >  The `express.static()` middleware serves the static assets in the React application's `dist/` folder.
+* <input type="checkbox" >  A middleware controller prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
+* <input type="checkbox" >  The `app` listens on an available port (I recommend `8080`)
 
 **Deployment Technical Requirements**
 
-- [ ] Your GitHub page has a link to the deployed server in the About section. 
+* <input type="checkbox" >  Your GitHub page has a link to the deployed server in the About section. 
 
 ## Part 1 — Setup
 
