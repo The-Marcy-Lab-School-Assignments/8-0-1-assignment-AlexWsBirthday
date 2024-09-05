@@ -48,13 +48,15 @@ Before continuing, make sure that these tasks are completed!
 * <input type="checkbox" checked>  In `index.js`, the `express()` function is used to create an `app`
 * <input type="checkbox" checked>  The `path` module is imported
 * <input type="checkbox" checked>  The `__dirname` variable is used to generate an absolute path to the `dist/` folder of your React application
-* <input type="checkbox" >  The `express.static()` middleware serves the static assets in the React application's `dist/` folder.
-* <input type="checkbox" >  A middleware controller prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
-* <input type="checkbox" >  The `app` listens on an available port (I recommend `8080`)
+* <input type="checkbox" checked>  The `express.static()` middleware serves the static assets in the React application's `dist/` folder.
+* <input type="checkbox" checked>  A middleware controller prints the request method, url, and time of request for every request sent to the server, and then invokes the `next()` middleware in the chain.
+* <input type="checkbox" checked>  The `app` listens on an available port (I recommend `8080`)
 
 **Deployment Technical Requirements**
 
 * <input type="checkbox" >  Your GitHub page has a link to the deployed server in the About section. 
+**I NEED HELP WITH DEPLOYMENT ON THIS ONE I DON'T UNDERSTAND IT**
+
 
 ## Part 1 — Setup
 
