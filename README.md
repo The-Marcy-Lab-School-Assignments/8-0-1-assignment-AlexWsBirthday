@@ -37,8 +37,8 @@ This assignment has 12 tasks:
 
 Before continuing, make sure that these tasks are completed!
 
-* <input type="checkbox" checked>  Has a Vite+React project folder with a built `dist/` folder
-* <input type="checkbox" checked>  The vite project `.gitignore` file does NOT include `dist`
+* <input type="checkbox" >  Has a Vite+React project folder with a built `dist/` folder
+* <input type="checkbox" >  The vite project `.gitignore` file does NOT include `dist`
 * <input type="checkbox" checked>  Has a `server` folder with an `index.js` file and a `package.json` file inside
 * <input type="checkbox" checked>  `package.json` has `express` installed as a dependency and `nodemon` as a dev dependency
 * <input type="checkbox" checked>  `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
